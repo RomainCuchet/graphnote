@@ -1,7 +1,11 @@
 import matplotlib.pyplot as plt
 from matplotlib.ticker import MultipleLocator
 
-test = True
+cmd = str(input("test (y/n) :"))
+if cmd == 'y':
+    test = True
+else:
+    test = False
 
 
 def attribute_data():
